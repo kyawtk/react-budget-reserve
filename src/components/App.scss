@@ -1,0 +1,126 @@
+
+
+
+
+
+
+////
+/// 
+/// 
+/// 
+h1,h3{
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.container{
+    width: 100%;
+    
+}
+.info{
+    width: 80%;
+    margin: auto;
+  
+}
+
+.info-card{
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.bg-grey{
+    background-color: rgba(128, 128, 128, 0.448);
+    color: #242424;
+}
+.bg-green{
+    background-color: rgba(0, 128, 0, 0.457);
+    color: rgb(1, 104, 1);
+}
+.bg-red{
+    background-color: rgba(255, 0, 0, 0.268);
+    color: red;
+}
+
+//buttons
+
+.btn{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.btn-primary{
+    background-color: rgb(64, 64, 245);
+    color: white;
+}
+
+//badges
+
+.badge{
+    font-weight: bold;
+    padding: 2px 5px;
+   display: inline-block;
+   border-radius: 10px;
+   color: white;
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+.badge-primary{
+    background-color: blue;
+}
+
+//list and list items
+
+
+ul{
+    margin: auto;
+    list-style-type: none;
+    width: 80%;
+}
+
+.li-item{
+    box-shadow: 1px 1px 2px grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+
+
+
+//form and form inputs
+
+.form{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.form-input{
+    box-shadow: 1px 1px 2px grey;
+    width: 50%;
+    background-color: rgb(220, 220, 220);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.budget{
+    display: inline;
+}
